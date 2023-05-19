@@ -28,6 +28,9 @@ $ git reset 将暂存区的文件取消暂存，
 
 $ git log 查看版本标识commit  31d60...（一长串字符），作者，时间，备注-m
 
+本地文件修改后，先git add到暂存区，然后git commit -m到本地仓库，再git push origin master到远程仓库
+
+---
 * git clone [remote-repo-URL]: Makes a copy of the specified repository, but on your local computer. Also creates a working directory that has files arranged exactly like the most recent snapshot in the download repository. Also records the URL of the remote repository for subsequent network data transfers, and gives it the special remote-repo-name “origin”.
 * git remote add [remote-repo-name] [remote-repo-URL]: Records a new location for network data transfers.
 * git remote -v: Lists all locations for network data transfers.* 
