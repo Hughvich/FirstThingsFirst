@@ -10,7 +10,7 @@ $ git remote -v
 查看当前仓库所连接的远程仓库
 
 $ git pull skeleton master  
-本地仓库拉取skeleton远程仓库的数据
+拉取skeleton远程仓库的数据，和本地仓库合并
 
 $ git push origin master  
 本地仓库push到远程仓库
@@ -18,7 +18,7 @@ $ git push origin master
 ----
 #### 本地仓库命令：
 
-$ git add lab1/*
+$ git add lab1/*  
 $ git commit -m "completed first part of lab1"
 修改本地文件后，将修改的内容commit到本地仓库
 举例子比如说这周我们在lab1中进行作业
